@@ -46,6 +46,7 @@ html{
     width: 250px;
     height: calc(100% - 100px);
     background-color: black;
+    position: relative;
 
 }
 
@@ -114,7 +115,45 @@ li a{
 }
 
 .utente-bottom{
-    align-self: flex-end;
+    width: 218px;
+    margin:  0 1em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+}
+
+.install{
+    margin: 0.5em 0;
+    color: grey;
+    font-weight: 700;
+}
+
+.user{
+    margin: 0.8em 0;
+}
+
+.user-img{
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 0.2em;
+}
+
+.user-img svg{
+    width: 40px;
+}
+
+.user h1{
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+    line-height: 40px;
+    vertical-align: bottom;
 }
 
 .small-logo{
