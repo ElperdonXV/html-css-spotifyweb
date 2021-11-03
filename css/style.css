@@ -41,10 +41,10 @@ html{
     width: 100%;
 }
 
-.left-menu{
+.left-col-menu{
     width: 15%;
-    height: 100%;
-    background-color: blue;
+    height: calc(100% - 100px);
+    background-color: black;
 
 }
 
@@ -62,4 +62,15 @@ footer{
     left: 0;
     background-color: seagreen;
     z-index: 1000;
+}
+
+.left-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+
+.utente-bottom{
+    align-self: flex-end;
 }
