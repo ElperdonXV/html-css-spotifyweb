@@ -26,6 +26,8 @@ html{
     float: left;
 }
 
+/* Layout */ 
+
 .top-upgrade{
     position: fixed;
     right: 0;
@@ -64,13 +66,36 @@ footer{
     z-index: 1000;
 }
 
+/* Fine layout */ 
+
+/* Parte sinistra menu */ 
+
 .left-menu{
     list-style: none;
     display: flex;
     flex-direction: column;
     color: grey;
+    margin: 0 1.5em;
+}
+
+.left-menu li{
+    margin: 1em 0;
+}
+
+.playlist{
+    margin: 0;
 }
 
 .utente-bottom{
     align-self: flex-end;
 }
+
+.small-logo{
+    display: none;
+}
+
+.logo img{
+    width: 60%;
+}
+
+/* Fine parte sinistra menu */ 
