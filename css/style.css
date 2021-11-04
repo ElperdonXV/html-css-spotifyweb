@@ -230,6 +230,22 @@ li h1{
     width: 50%;
 }
 
+.top-media-player ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.top-media-player ul li{
+    color: white;
+    font-size: 1.3em;
+    margin: 0 1em;
+}
+
+#icon-big{
+    font-size: 2em;
+}
+
 .utility-media{
     display: flex;
     justify-content: right;
