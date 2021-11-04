@@ -69,7 +69,7 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: seagreen;
+    background-color: #181818;
     z-index: 1000;
 }
 
@@ -184,17 +184,56 @@ li h1{
     display: flex;
     justify-content: left;
     align-items: center;
+    width: 25%;
+}
+
+.brano ul{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.brano ul li {
+    margin: 0 0.8em;
+}
+
+.nome-brano{
+    display: flex;
+    justify-content: space-around;
+}
+
+.brano img{
+    
+    width: 50px;
+}
+
+.icon{
+    color: lightgray;
+}
+
+.brano h2{
+    font-size: 1em;
+    color: white;
+}
+
+.brano h3{
+    display: inline-block;
+    font-size: 0.8em;
+    color: grey;
 }
 
 .media-player{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
 }
 
 .utility-media{
     display: flex;
     justify-content: right;
     align-items: center;
+    width: 25%;
 }
 /* Fine Footer */
