@@ -52,7 +52,7 @@ html{
 }
 
 .menu-top{
-    height: calc(100% - 80px);
+    height: calc(100% - 90px);
     width: 100%;
 }
 
@@ -126,25 +126,23 @@ li h1{
 
 .utente-bottom{
     width: 200px;
-    height: 80px;
+    height: 90px;
     margin: 0 1em;
     background-color: black;
 }
 
 .install{
-
+    text-decoration: none;
     color: grey;
     font-weight: 700;
 }
 
-.user{
-    padding: 0.5em 0;
-}
+
 
 .user-img{
     background-color: grey;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     text-align: center;
     overflow: hidden;
@@ -153,15 +151,19 @@ li h1{
 }
 
 .user-img svg{
-    width: 20px;
+    width: 30px;
 }
 
 .user h1{
     display: inline-block;
     color: white;
     font-size: 1em;
-    line-height: 20px;
+    line-height: 30px;
     vertical-align: bottom;
+}
+
+.utente-bottom hr{
+    margin: 0.5em 0;
 }
 
 .small-logo{
