@@ -31,34 +31,40 @@ html{
     position: fixed;
     right: 0;
     top: 0;
-    width: calc(100% - 250px);
-    height: 100px;
+    width: calc(100% - 230px);
+    height: 90px;
     background-color: black;
     z-index: 999;
 }
 
 .body-container{
-    height: 100%;
+    height: calc(100vh - 90px);
     width: 100%;
 }
 
 .left-col-menu{
-    width: 250px;
-    height: calc(100% - 100px);
+    height: 100%;
+    width: 230px;
+    min-height: 650px;
     background-color: black;
-    position: relative;
+    overflow: hidden;
 
 }
 
+.menu-top{
+    height: calc(100% - 80px);
+    width: 100%;
+}
+
 .right-content{
-    width: calc(100% - 250px);
+    width: calc(100% - 230px);
     height: 100%;
     background-color: red;
 }
 
 footer{
     width: 100%;
-    height: 100px;
+    height: 90px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -72,8 +78,6 @@ footer{
 
 .left-menu{
     list-style: none;
-    display: flex;
-    flex-direction: column;
 }
 
 .left-menu li{
@@ -115,33 +119,32 @@ li h1{
 
 }
 
-.playlist{
-    margin: 0;
+.playlist-overflow{
+    overflow-y: auto;
+    height: 50%;
 }
 
 .utente-bottom{
-    width: 218px;
-    margin:  0 1em;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    width: 200px;
+    height: 80px;
+    margin: 0 1em;
     background-color: black;
 }
 
 .install{
-    margin: 0.5em 0;
+
     color: grey;
     font-weight: 700;
 }
 
 .user{
-    margin: 0.8em 0;
+    padding: 0.5em 0;
 }
 
 .user-img{
     background-color: grey;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     text-align: center;
     overflow: hidden;
@@ -150,14 +153,14 @@ li h1{
 }
 
 .user-img svg{
-    width: 40px;
+    width: 20px;
 }
 
 .user h1{
     display: inline-block;
     color: white;
     font-size: 1em;
-    line-height: 40px;
+    line-height: 20px;
     vertical-align: bottom;
 }
 
