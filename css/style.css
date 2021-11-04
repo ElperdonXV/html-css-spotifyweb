@@ -184,7 +184,7 @@ li h1{
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 25%;
+    width: 15%;
 }
 
 .brano ul{
@@ -225,9 +225,10 @@ li h1{
 
 .media-player{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 70%;
 }
 
 .top-media-player ul{
@@ -245,11 +246,50 @@ li h1{
 #icon-big{
     font-size: 2em;
 }
+.status-song, .end-song{
+    width: 10%;
+    display: inline-block;
+}
+
+.end-song{
+    text-align: right;
+}
+
+.time{
+    width: 80%;
+}
+
+.bottom-media-player {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-media-player span{
+    color: lightgrey;
+    font-size: 0.8em;
+}
+
+.song-bar{
+    width: 100%;
+    height: 5px;
+    background-color: grey;
+    margin: 0.5em;
+    border-radius: 2px;
+
+}
+
+.progress-bar{
+    width: 20%;
+    height: 5px;
+    background-color: lightgrey;
+    border-radius: 2px;
+}
 
 .utility-media{
     display: flex;
     justify-content: right;
     align-items: center;
-    width: 25%;
+    width: 15%;
 }
 /* Fine Footer */
