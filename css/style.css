@@ -13,6 +13,7 @@ html{
     width: 100%;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 .clearfix::after{
@@ -45,21 +46,46 @@ html{
 .left-col-menu{
     height: 100%;
     width: 230px;
-    min-height: 650px;
     background-color: black;
     overflow: hidden;
+    min-height: 650px;
+}
 
+.main-left-container{
+    height: calc(100% - 104px);
+}
+
+.logo{
+    height: 40px;
+    margin: 12px 1.5em;
 }
 
 .menu-top{
-    height: calc(100% - 90px);
+    height: 200px;
     width: 100%;
+}
+
+.playlist-container{
+    height: calc(100% - 264px);
+    overflow-y: auto;
+}
+
+.playlist{
+    padding-bottom: 2.5em;
+}
+
+.utente-bottom{
+    width: 200px;
+    height: 80px;
+    margin: 12px 1em;
+    background-color: black;
 }
 
 .right-content{
     width: calc(100% - 230px);
     height: 100%;
     background-color: #121212;
+    overflow-y: auto;
 }
 
 footer{
@@ -71,7 +97,7 @@ footer{
     bottom: 0;
     left: 0;
     background-color: #181818;
-    z-index: 1000;
+    z-index: 800;
 }
 
 /* Fine layout */ 
@@ -121,25 +147,11 @@ li h1{
 
 }
 
-.playlist-overflow{
-    overflow-y: auto;
-    height: 50%;
-}
-
-.utente-bottom{
-    width: 200px;
-    height: 90px;
-    margin: 0 1em;
-    background-color: black;
-}
-
 .install{
     text-decoration: none;
     color: grey;
     font-weight: 700;
 }
-
-
 
 .user-img{
     background-color: grey;
