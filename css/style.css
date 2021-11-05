@@ -57,7 +57,7 @@ html{
 
 .logo{
     height: 40px;
-    margin: 12px 1.5em;
+    margin: 20px 1.5em;
 }
 
 .menu-top{
@@ -66,7 +66,7 @@ html{
 }
 
 .playlist-container{
-    height: calc(100% - 264px);
+    height: calc(100% - 280px);
     overflow-y: auto;
 }
 
@@ -122,12 +122,19 @@ li svg{
     width: 30px;
 }
 
-li a{
+.left-menu li a{
     text-decoration: none;
-    line-height: 30px;
-    vertical-align: bottom;
     font-weight: 600;
     color: grey;
+}
+
+li a span{
+    text-decoration: none;
+    font-weight: 600;
+    color: grey;
+    line-height: 30px;
+    vertical-align: text-bottom;
+    margin-left: 0.3em;
 }
 
 li h1{
@@ -189,6 +196,25 @@ li h1{
 }
 
 /* Fine parte sinistra menu */ 
+
+
+
+/* Parte sinistra menu hover*/
+.left-menu li a:hover{
+    color: white;
+    fill: white;
+}
+
+.left-menu li a:hover span{
+    color: white;
+}
+
+
+.utente-bottom a:hover{
+    color: white;
+    text-decoration: underline;
+}
+/* Fine Parte sinistra menu hover*/
 
 
 
