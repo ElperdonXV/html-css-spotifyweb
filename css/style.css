@@ -232,13 +232,12 @@ li h1{
 
 .top-media-player{
     display: flex;
-    width: 60%;
 }
 
 .top-media-player ul{
     list-style: none;
     display: flex;
-    width: 100%;
+    width: 15%;
     justify-content: space-between;
     align-items: center;
 }
@@ -246,6 +245,7 @@ li h1{
 .top-media-player ul li{
     color: white;
     font-size: 1.3em;
+    margin: 0 0.3em;
 }
 
 #icon-big{
