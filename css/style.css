@@ -183,24 +183,23 @@ li h1{
 /* Footer */
 .brano{
     display: flex;
-    justify-content: left;
     align-items: center;
 }
 
-.brano ul{
+.left{
+    display: flex;
+    margin-left: 1em;
+}
+
+.left ul{
     list-style: none;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
 }
 
-.brano ul li {
-    margin: 0 0.8em;
-}
-
-.nome-brano{
-    display: flex;
-    justify-content: space-around;
+.left ul li {
+    margin: 0 0.3em;
 }
 
 .brano img{
@@ -225,7 +224,7 @@ li h1{
 
 .media-player{
     display: flex;
-    width: 40%;
+    width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -254,6 +253,7 @@ li h1{
 }
 .status-song, .end-song{
     display: flex;
+    margin: 0 0.3em;
 }
 
 .end-song{
@@ -264,7 +264,7 @@ li h1{
 .bottom-media-player {
 
     display: flex;
-    width: 100%;
+    width: 80%;
     align-items: center;
     justify-content: space-between;
 }
@@ -282,7 +282,7 @@ li h1{
 .song-bar{
     display: flex;
     width: 100%;
-    min-width: 100px;
+    min-width: 45px;
     height: 5px;
     background-color: grey;
     border-radius: 2px;
@@ -298,32 +298,37 @@ li h1{
 
 .utility-media{
     display: flex;
-    justify-content: right;
     align-items: center;
 }
 
-.utility-media ul{
+.right{
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+}
+
+.right ul{
     list-style: none;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
 }
 
-.utility-media ul li{
-    display: inline-block;
-    margin: 0 0.8em;
+.right ul li{
+    color: grey;
+    margin: 0 0.3em;
 }
 
 .volume-bar{
-    width: 8vw;
+    display: flex;
+    min-width: 70px;
     height: 5px;
     background-color: grey;
-    margin: 0.5em;
     border-radius: 2px;
 }
 
 .status-volume{
-    width: 3vw;
+    width: 40%;
     height: 5px;
     background-color: lightgrey;
     border-radius: 2px;
