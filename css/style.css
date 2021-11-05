@@ -209,7 +209,6 @@ li h1{
     color: white;
 }
 
-
 .utente-bottom a:hover{
     color: white;
     text-decoration: underline;
@@ -332,6 +331,7 @@ li h1{
     height: 5px;
     background-color: lightgrey;
     border-radius: 2px;
+    position: relative;
 }
 
 .utility-media{
@@ -369,5 +369,50 @@ li h1{
     height: 5px;
     background-color: lightgrey;
     border-radius: 2px;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    top: -4px;
+    right: 0;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    background-color: whitesmoke;
+    display: none;
 }
 /* Fine Footer */
+
+
+/* Footer Hover */
+.left ul li h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.left ul li i:hover , .right ul li i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.top-media-player ul #icon-big:hover{
+    transform: scale(1.2);
+}
+
+.time .song-bar:hover .progress-bar{
+    background-color: #adff2f;
+}
+
+.time .song-bar:hover .progress-bar .circle{
+    display: block;
+}
+
+.right ul li .volume-bar:hover .status-volume{
+    background-color: #adff2f;
+}
+
+.right ul li .volume-bar:hover .status-volume .circle{
+    display: block;
+}
+/* Fine footer Hover */
