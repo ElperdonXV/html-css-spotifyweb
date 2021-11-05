@@ -225,6 +225,7 @@ li h1{
 
 .media-player{
     display: flex;
+    width: 40%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -232,26 +233,27 @@ li h1{
 
 .top-media-player{
     display: flex;
+    width: 60%;
 }
 
 .top-media-player ul{
     list-style: none;
     display: flex;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
 }
 
 .top-media-player ul li{
     color: white;
     font-size: 1.3em;
-    margin: 0 1em;
 }
 
 #icon-big{
     font-size: 2em;
 }
 .status-song, .end-song{
-    width: 10%;
-    display: inline-block;
+    display: flex;
 }
 
 .end-song{
@@ -262,7 +264,9 @@ li h1{
 .bottom-media-player {
 
     display: flex;
+    width: 100%;
     align-items: center;
+    justify-content: space-between;
 }
 
 .bottom-media-player span{
@@ -270,17 +274,23 @@ li h1{
     font-size: 0.8em;
 }
 
+.time{
+    width: 80%;
+    display: flex;
+}
+
 .song-bar{
-    width: 50vw;
+    display: flex;
+    width: 100%;
+    min-width: 100px;
     height: 5px;
     background-color: grey;
-    margin: 0.5em;
     border-radius: 2px;
 
 }
 
 .progress-bar{
-    width: 10vw;
+    width: 10%;
     height: 5px;
     background-color: lightgrey;
     border-radius: 2px;
