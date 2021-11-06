@@ -479,8 +479,9 @@ li h1{
 
 .recently-played, .popular-artist, .made-for{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    gap: 20px;
     margin: 2em 0;
 }
 
