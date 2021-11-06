@@ -435,3 +435,47 @@ li h1{
     display: block;
 }
 /* Fine footer Hover */
+
+
+/*Corpo centrale */
+.right-content-container{
+    width: 90%;
+    padding-top: 120px;
+    margin: auto;
+}
+
+.top-content-menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.top-content-menu li{
+    margin: 0 0.3em;
+}
+
+.top-content-menu .active-li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active-div{
+    margin-top: 0.3em;
+    display: flex;
+    height: 2px;  
+    width: 40px;
+    background-color: #adff2f;
+}
+
+.top-content-menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 800;
+}
+
+
+.top-content-menu
+/*Fine Corpo centrale */
