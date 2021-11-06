@@ -477,10 +477,11 @@ li h1{
     font-weight: 800;
 }
 
-.recently-played{
+.recently-played, .popular-artist, .made-for{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 2em 0;
 }
 
 .card-container{
@@ -488,6 +489,7 @@ li h1{
     flex-direction: row;
     flex-wrap: wrap;
     width: 15%;
+    min-width: 200px;
 }
 
 .card{
@@ -527,11 +529,6 @@ li h1{
     text-align: center;
 }
 
-.recently-played  , .made-for  , .popular-artist {
-    margin: 2em 0;
-}
-
-
 .title h1{
     color: white;
     font-size: 2em;
@@ -546,4 +543,46 @@ li h1{
     margin-bottom: 1em;
 }
 
+.rounded img{
+    border-radius: 50%;
+}
+
 /*Fine Corpo centrale */
+
+
+/* Corpo centrale hover*/
+
+.top-content-menu li:hover a{
+    color: white;
+}
+
+.card-top{
+    position: relative;
+}
+
+.hover-card{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.hover-icon{
+    position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    display: flex;
+    margin: auto;
+    font-size: 5em;
+    color: white;
+}
+
+.card .card-top:hover .hover-card{
+    display: block;
+    cursor: pointer;
+}
+/* Fine corpo centrale hover*/
