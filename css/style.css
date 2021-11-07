@@ -44,6 +44,7 @@ html{
     top: 0;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
     font-weight: 800;
     font-size: 1em;
     color: white;
@@ -587,3 +588,94 @@ li h1{
     cursor: pointer;
 }
 /* Fine corpo centrale hover*/
+
+
+/* Responsive*/
+@media screen and (max-width: 700px)  {
+    
+}
+
+
+@media screen and (max-width: 600px)  {
+    
+    .left-col-menu{
+    height: 100%;
+    width: 80px;
+    background-color: black;
+    overflow: hidden;
+    min-height: 650px;
+    }
+
+    .top-upgrade{
+    width: calc(100% - 80px);
+    }
+
+    .right-content{
+        width: calc(100% - 80px);
+    }
+
+   
+    .small-logo{
+    display: block;
+    width: 30px;
+    margin: 20px auto;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .border-active{
+        border-left: none;
+    }
+
+    .playlist{
+    display: none;
+    }
+
+    .logo img{
+   display: none;
+    }
+
+    li a span{
+    display: none;
+    }
+
+    .left-menu li:last-child{
+    display: none;
+    }
+
+    .left-menu li h1{
+    display: none;
+    }
+
+    .install span {
+        display: none;
+    }
+
+    .utente-bottom  {
+        text-align: center;
+    }
+
+    .utente-bottom hr{
+    display: none;
+    }
+    .utente-bottom{
+        width: 80px;
+        margin: 0 auto;
+    }
+
+    .user h1{
+    display: none;
+    }
+
+    .user-img{
+        margin: 1em auto;
+    }
+
+    .user{
+        text-align: center;
+    }
+
+}
+/* Fine Responsive*/
